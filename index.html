@@ -2,9 +2,54 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Пример простой страницы html</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мое портфолио</title>
+    <link rel="stylesheet" href="style/styles.css">
 </head>
 <body>
-    Я ОБОЖАЮ ВСТАВАТЬ К ПЕРВОЙ ПАРЕ :)
+    <div class="page-container">
+        <div class="header">Мой личный сайт</div>
+        
+        <div class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/news.html">Новости</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/goods.html">Товары</a></li>
+                <li class="nav-item"><a class="nav-link" href="pages/contacts.html">Контакты</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <div class="profile-header">
+                <h1 class="profile-title">Информация об авторе</h1>
+                <img class="profile-photo" src="images/photo.png" alt="Фото автора">
+                <h2 class="profile-name">Андриатис Сергей Юрьевич</h2>
+                <p class="profile-group">ЭФБО-17-24</p>
+            </div>
+
+            <div class="about-me">
+                <p>Обо мне: Я студент, это мой сайт</p>
+            </div>
+
+
+            <div class="experience-section">
+                <h2 class="section-title">Мой опыт работы</h2>
+                
+                <div class="experience-card">
+                    <h3 class="experience-title">Тестировщик в системе управления</h3>
+                    <p class="experience-desc">Занимаюсь тестированием программного обеспечения, выявлением багов и улучшением качества продуктов.</p>
+                </div>
+
+                <div class="experience-card">
+                    <h3 class="experience-title">Бармен в The Бык)))</h3>
+                    <p class="experience-desc">Работал в культовом заведении, готовил коктейли, общался с гостями и создавал атмосферу.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            © 2026 Андриатис Сергей. Все права защищены
+        </div>
+    </div>
 </body>
 </html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты</title>
+    <link rel="stylesheet" href="../style/styles.css">
+</head>
+<body>
+    <div class="page-container">
+        <div class="header">Контакты</div>
+        
+        <div class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a class="nav-link" href="../index.html">Главная</a></li>
+                <li class="nav-item"><a class="nav-link" href="news.html">Новости</a></li>
+                <li class="nav-item"><a class="nav-link" href="goods.html">Товары</a></li>
+                <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h1 class="profile-title">Свяжитесь со мной</h1>
+            
+            <div class="contacts-info">
+                <div class="contacts-email">
+                    📧 ivan.ivanov@university.ru
+                </div>
+                
+                <div class="contacts-address">
+                    🏢 Москва, ул. Строителей, д. 1<br>
+                    📞 +7 (999) 123-45-67
+                </div>
+
+                <button class="contacts-button" onclick="alert('Спасибо! Мы скоро свяжемся с вами 📞')">
+                    Позвоните мне
+                </button>
+            </div>
+        </div>
+
+        <div class="footer">
+            © 2026 Иванов Иван. Все права защищены
+        </div>
+    </div>
+
+    <script>
+        // Можно добавить небольшую интерактивность
+        document.querySelector('.contacts-button').addEventListener('click', function() {
+            alert('Спасибо за интерес! Мы свяжемся с вами в ближайшее время.');
+        });
+    </script>
+</body>
+</html>
